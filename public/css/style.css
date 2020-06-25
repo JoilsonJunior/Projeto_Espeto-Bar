@@ -376,3 +376,35 @@ video {
     animation-delay: 15s;
     
 }
+
+
+/* Container Cardapio */
+.container_cardapio{
+    background-color: #252832;
+    color: #fff;
+    height: 800px;
+}
+.col_cardapios{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item_card{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+/* Container Maps */
+
+.container_localizacao{
+    height: 600px;
+    background-color: darkgray;
+}
+
+
+
+/**/
