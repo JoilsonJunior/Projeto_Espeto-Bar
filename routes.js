@@ -8,6 +8,10 @@ routes.get('/Telacontato', function(req,res){
     return res.render("Telacontato")
 })
 
+routes.get('/cardapio', function(req,res){
+    return res.render("cardapio")
+})
+
 
 
 
