@@ -1,42 +1,16 @@
-const nodemailer = require('nodemailer');
-const app = express()
+// Identificar o clique no menu
+// Verificar o item que foi clicado e fazer referência com o alvo
+// Verificar a distância entre o alvo e o topo
+// Animar o scroll até o alvo
 
-const port = 5000
+const menuItems = document.querySelectorAll('.nav-links a[href^="#"]');
 
-const user = "joilson320@hotmail.com"
-const pass = "asdfghj012345"
-
-app.get('/Telacontato', (req, res) => res.send('Hello Word'))
-
-app.post('/',(req,res) => {
-
-    const transporter = nodemailer.createTransport({
-        host:"smtp.live.com",
-        port:587,
-        auth: {user,pass}
-    })
-        
-transporter.sendMail({
-    
-    from: user,
-    to: user,
-    replyTo: "joilsonssj@hotmail.com",
-    seubject: "Olá, seja bem vindo",
-    text: "Olá,muito obrigado por se cadastrar na nossa plataforma",
-}).then(info => {
-   res.send(info)
-}).catch(error => {
-    res.send(error)
+menuItems.forEach(item => {
+    item.addEventListener('click' , scrollToIdOnClick);
 })
 
-
-    })
-
-
-
-
-
-app.listem(port, () => console.log(`Running on port ${port}!`))
-
+function scrollToIdOnClick() {
+    console.log('clicou');
+}
 
 
