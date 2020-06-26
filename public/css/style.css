@@ -425,6 +425,7 @@ footer{
 .container_footer h4{
     color: #f8801f;
     font-size: 28px;
+    padding: 10px;
 }
 .container_footer li{
     color: #fff;
