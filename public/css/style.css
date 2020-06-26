@@ -383,6 +383,7 @@ video {
     background-color: #252832;
     color: #fff;
     height: 800px;
+    background-image: url('https://www.tribunapr.com.br/wp-content/uploads/2020/01/30161957/CARD%C3%81PIO-TECNICOPIAS.jpg');
 }
 .col_cardapios{
     display: flex;
