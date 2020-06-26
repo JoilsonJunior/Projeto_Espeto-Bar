@@ -438,6 +438,10 @@ footer li{
     padding: 7px;
 }
 
+.width{
+    width: 25%;
+}
+
 
 /* Container Creditos */
 .container_creditos{
