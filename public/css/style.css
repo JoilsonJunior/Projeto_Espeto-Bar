@@ -9,12 +9,15 @@
 
 
 nav {
-    
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
     background-color: black;
+    z-index: 100;
     
 }
 .logo {
