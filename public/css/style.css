@@ -291,7 +291,7 @@ video {
     font-size: 42px;
     color: #f8801f;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 0%;
     padding-bottom: 5%;   
 }
 
@@ -324,11 +324,11 @@ video {
 
 .galeria{
     margin: 30px auto;
-    width: 100%;
+    width: 1000px;
     height: 400px;
     position: relative;
     overflow: hidden;
-    right: 25%;
+    right: 30%;
 }
 .foto{
   position: absolute;
@@ -368,56 +368,25 @@ video {
 
 /* Container Cardapio */
 .container_cardapio{
-    width: 100%;
-    background-color: #262626;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    background-color: black;
+    color: #fff;
+    height: 1000px;
+    
 }
-.tittle_cardapio{
-    padding-bottom: 5%;
-    font-size: 32px;
-    color: #f8801f;
-    text-align: center;
-}
-.container_menus_card{
+.col_cardapios{
     display: flex;
     justify-content: space-around;
-    padding: 2%;
-    font-size: 24px;
-    line-height: 34px;
-    color: #f8801f;
-}
-.title_menus_card{
-    text-align: start;
-    border-bottom: 2px solid white;
+    padding-right: 30px;
 }
 
-.cont_cardapio{
+.item_card{
+    position: relative;
     display: flex;
     justify-content: space-around;
-    text-align: center;
-    width: 70%;
-    margin: auto;
-}
-.col_cardapio{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    width: 50%;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-.content_cardapio{
-    text-align: start;
-    padding: 3%;
-    width: 50%;
-    color: #fff;
-}
-.price_cardapio{
-    text-align: end;
-    padding: 3%;
-    width: 50%;
-    color: #f8801f;
+    padding: 10px;
+    top: 150px;
+
+    
 }
 
 
@@ -487,7 +456,7 @@ footer li{
 }
 
 .width{
-    width: 100%;
+    width: 25%;
 }
 
 
