@@ -191,6 +191,9 @@ video {
 .col_bemVindo a{
     text-align: center;
 }
+.img_bemvindo{
+    text-align: center;
+}
 
 
 .col_bemVindo h2{
@@ -364,29 +367,65 @@ video {
 
 
 /* Container Cardapio */
+.subTittle_cardapio{
+    display: flex;
+    justify-content: space-around;  
+    color: white;
+}
+.tittle_cardapio{
+    text-align: center;
+    font-size: 32px;
+    line-height: 42px; 
+    color: #f8801f;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
 .container_cardapio{
-    background-color: black;
-    color: #fff;
-    height: 1000px;
-    
+    background-color: #262626;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
-.col_cardapios{
+.cont_cardapio{
     display: flex;
     justify-content: space-around;
-    padding-right: 30px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
 }
-
-.item_card{
-    position: relative;
+.col_cardapio{
     display: flex;
     justify-content: space-around;
-    padding: 10px;
-    top: 150px;
-
-    
+    text-align: center;
+    width: 50%;
+    padding: 1.2%;
+}
+.info_card{
+    color: white;
+}
+.price_card{
+    color: #f8801f;
 }
 
 
+.container_sabiamais{
+    padding-top: 5%;
+    text-align: center;
+}
+.button_saibamais a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    border: 1px solid #f8801f;
+    padding: 1%;
+    border-radius: 25px;
+}
+.container_back{
+    width: 80%;
+    margin: auto;
+    border: 1px solid #f8801f;
+}
 
 
 
@@ -417,11 +456,11 @@ video {
 /* Footer */
 
 footer{    
-    background-color: black;
+    background-color: #262626;
 }
 
 .container_footer{
-    width: 70%;
+    width: 80%;
     height: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -453,7 +492,7 @@ footer li{
 }
 
 .width{
-    width: 25%;
+    width: 100%;
 }
 
 
@@ -533,3 +572,28 @@ footer li{
     top: 400px;
     width: 12%;
 }
+
+
+
+
+
+/* Teste */
+/*
+.container_cardapio2{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.col_caard{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1.2%;
+}
+.col_comidas{
+    width: 50%;
+}
+.col_bebidas{
+    width: 50%;
+} */

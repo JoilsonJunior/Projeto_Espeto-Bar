@@ -9,6 +9,7 @@
         padding-top: 10%;
         padding-bottom: 10%;
     }
+    
     .cards_produtos{
         flex-direction: column;
     }
@@ -45,7 +46,9 @@
         padding-top: 5%;
         padding-bottom: 15%;
     }
-    
+    .nav-links{
+        display: none;
+    }
     
 
     /* Footer */
