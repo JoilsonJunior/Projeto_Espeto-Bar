@@ -9,7 +9,10 @@
 
 
 nav {
-    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -382,7 +385,7 @@ video {
 }
 
 .container_cardapio{
-    background-color: #262626;
+    background-color: black;
     width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -456,7 +459,7 @@ video {
 /* Footer */
 
 footer{    
-    background-color: #262626;
+    background-color: black;
 }
 
 .container_footer{
